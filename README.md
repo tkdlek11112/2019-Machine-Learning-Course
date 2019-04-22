@@ -1,5 +1,6 @@
 # Machine Learning Course with DMQA, 2019
-Repository for slides & hands-on practices.
+Repository for course materials, including slides & hands-on practices.
+
 
 ## Maintainers
 * Seoung Bum Kim <sbkim1@korea.ac.kr>
