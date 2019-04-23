@@ -1,0 +1,28 @@
+
+Data Set Information:
+- P2P 대출이란 일종의 크라우드펀딩으로 온라인 플랫폼을 기반으로 개인끼리 자금을 빌려주고 돌려받는 새로운 개념의 대출형태
+- 플랫폼이 온라인이라는 특수성 때문에 투자자들은 온라인에서 차용인의 정보만 획득하고 투자를 결정 
+- 기존 신용평가모형이 아닌 새로운 대출지표가 필요. 머신러닝 방법론을 기반으로 금융·비금융 정보를 활용한 대출 상환예측 모델을 구축
+
+
+<X>	annual_inc			연봉						연속형
+	bc_util				모든 은행카드의 신용금액 대비 현재 잔액 비율	연속형
+	chargeoff_within_12_mths	1년간 사용정지 횟수				연속형
+	dti				총부채상환비율					연속형
+	inq_last_6mths			6개월 동안 개인 신용조회 수			연속형
+	mths_since_last_delinq		최근 연체 월수					연속형
+	num_accts_ever_120_pd		120일 이상 연체한 계좌 수			연속형
+	pub_rec_bankruptcies		부정적인 공공정보의 수				연속형
+	tax_liens			세금에 의한 재산 차압의 수			연속형
+	tot_hi_cred_lim			전체신용한도					연속형
+	total_bc_limit			신용카드의 한도					연속형
+	avg_cur_bal			계좌의 평균잔액					연속형
+	pct_tl_nvr_dlq			연체 없는 거래의 비율				연속형
+	revol_bal			전체 신용 리볼링 잔액				연속형
+	total_acc			전체 한도 계좌의 수				연속형
+	int_rate			이자						연속형
+	verification_status		대출자의 수입 출처 (A = Not Verified / B=Souce Verified / C = Verified)	명목형
+	home_ownership			집 소유 상태 (A = OWN / B = RENT / C = MORTAGE)	명목형
+	term				상환기간(36개월 = 0, 60개월 = 1)			명목형
+	
+<Y>	TARGET				(Loan Status) 0: 상환 성공, 1: 상환 실패	이진 (타겟변수)
